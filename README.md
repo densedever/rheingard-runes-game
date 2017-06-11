@@ -1,6 +1,24 @@
-# rheingard-runes-game
+# Rheingard Runes
 A mess-around HTML5 game made in pure JavaScript/HTML5/CSS on Google Chrome 43.
 Top-down dungeon-crawling RPG.
+
+## Overview of the Code Base
+The game scripts are split into several files:
+ * `rAF.js`  : a polyfill for the requestAnimationFrame function.
+ * `keys.js` : defines key states and event handlers for them.
+ * `image-loader.js` : preloads images contained in a single function called with `new`.
+ * `canvas.js` : references the canvas and any initial width/height settings.
+ * `box.js`  : a generic box for displaying game objects and tiles.
+ * `main.js` : the main game code and data initializations (which will later be moved to their own file).
+
+Improvements can be made to the code now, such as housing related game objects in arrays, but I'm holding off since the project is in such a simple early state. First priority is getting things working.
+
+## Current Plans
+
+ * Make rectangular map with multiple traversable rooms. Character meant to hit edges of map.
+ * Put in map.
+ * Add sprite sheet animation object.
+
 
 ##Synopsis:
 
@@ -14,8 +32,5 @@ With enough of the creatures slain, the agitated beast awoke. A gargantuan of st
 
 Our heroes, while valiant in the past, would have a great test of a mettle no man before has held. Will they best this evil, and survive to redeem the human race from destruction?
 
-## Current Plans
 
-1. Add sprite sheet animation for character.
-2. Put in map.
 
