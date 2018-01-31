@@ -20,7 +20,7 @@ Improvements can be made to the code now, such as housing related game objects i
  * Add sprite sheet animation object.
 
 
-##Synopsis:
+## Synopsis:
 
 Stone monoliths jut out of the earth, glowing with indecipherable, arcane runes. Their presence has been so ubiquitous and timeless that few men of modern days paid them heed. They were part of the landscape, with as much air of mystery as sparce rumors of their unknown origins lent.
 
